@@ -59,9 +59,3 @@ const Main = styled.div`
 `
 
 export default App;
-
- {/* #1200A3 Neutral
- #2D2375 Unsaturated
- #0B005C Deepest
- #4032A8 Light
- #1D00F5 Brightest */}
