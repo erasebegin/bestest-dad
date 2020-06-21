@@ -19,17 +19,17 @@ export default function Gallery() {
   return (
     <GalleryContainer>
       <div className="subcontainer">
-        <img className="gallery-image" src={imgArr[0]} onClick={()=> setCurrImg(0)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[1]} onClick={()=> setCurrImg(1)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[2]} onClick={()=> setCurrImg(2)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[3]} onClick={()=> setCurrImg(3)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[4]} onClick={()=> setCurrImg(4)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[5]} onClick={()=> setCurrImg(5)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[6]} onClick={()=> setCurrImg(6)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[7]} onClick={()=> setCurrImg(7)} alt="childhood photo"></img>
-        <img className="gallery-image" src={imgArr[8]} onClick={()=> setCurrImg(8)} alt="childhood photo"></img>
+        <img className="gallery-image" src={imgArr[0]} onClick={()=> setCurrImg(0)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[2]} onClick={()=> setCurrImg(2)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[3]} onClick={()=> setCurrImg(3)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[1]} onClick={()=> setCurrImg(1)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[4]} onClick={()=> setCurrImg(4)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[5]} onClick={()=> setCurrImg(5)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[6]} onClick={()=> setCurrImg(6)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[7]} onClick={()=> setCurrImg(7)} alt="childhood family"></img>
+        <img className="gallery-image" src={imgArr[8]} onClick={()=> setCurrImg(8)} alt="childhood family"></img>
       </div>
-      <img className = "main-image" src={imgArr[currImg]} alt="childhood photo"></img>
+      <img className = "main-image" src={imgArr[currImg]} alt="childhood family"></img>
     </GalleryContainer>
   );
 }
