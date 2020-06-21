@@ -12,7 +12,7 @@ const App = () => {
       <h1>
         Because you're the best dad in the world...
       </h1>
-      <img className="drawing" src={dadImage}></img>
+      <img className="drawing" src={dadImage} alt="drawing of my dad, brother and myself from left to right"></img>
       <h1>
         We wrote a song for you.
       </h1>
