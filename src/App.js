@@ -28,8 +28,8 @@ const App = () => {
             boxShadow: "3px 2px 5px #633d008f"
           }}
         />
-        <h2>While you listen, here are some pictures</h2>
-        <h2>To remind you of the time when we no words are has</h2>
+        <h2>While you listen, here are some pictures...</h2>
+        <h2>To remind you of the time when we no words are has?</h2>
         <Gallery />
       </Main>
     </>
@@ -53,8 +53,14 @@ const Main = styled.div`
   color: rgb(26, 14, 0);
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+
+    @media(min-width: 768px) {
+      font-size: 4rem;
+    }
   }
+
+  
 
   h2 {
     font-size: 3rem;
